@@ -19,7 +19,10 @@
         "laravel": {
             "providers": [
                 "Djmitry\\Meta\\MetaServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Debugbar": "Djmitry\\Meta\\Meta"
+            }
         }
     }
 }
