@@ -1,0 +1,25 @@
+{
+    "name": "djmitry/laravel-meta",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Zagainov",
+            "email": "d.i.ma.92@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Djmitry\\Meta\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Djmitry\\Meta\\MetaServiceProvider"
+            ]
+        }
+    }
+}
