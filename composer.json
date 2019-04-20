@@ -21,7 +21,7 @@
                 "Djmitry\\Meta\\MetaServiceProvider"
             ],
             "aliases": {
-                "Debugbar": "Djmitry\\Meta\\Meta"
+                "Meta": "Djmitry\\Meta\\Meta"
             }
         }
     }
